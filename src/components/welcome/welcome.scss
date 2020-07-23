@@ -1,0 +1,27 @@
+
+.welcome {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:400px;
+
+    &Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 600px;
+    }
+
+    &Title {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    &Text {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+    }
+}

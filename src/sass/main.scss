@@ -1,0 +1,30 @@
+// Global
+html {
+	scroll-behavior: smooth;
+	
+	&::-webkit-scrollbar {
+		display: none;
+		-ms-overflow-style: none;
+	}
+}
+
+//Pages
+
+//Components
+@import '../components/navigation/navigation.scss';
+@import '../components/weather/weather.scss';
+@import '../components/welcome/welcome.scss';
+@import '../components/todo/todo.scss';
+
+//Variables
+@import './typography.scss';
+@import './normalize.scss';
+@import './colors.scss';
+@import './mixins.scss';
+
+
+
+
+
+
+
